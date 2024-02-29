@@ -1,2 +1,2 @@
-Inter-ExtraBold
+Inter-ExtraBold, extrabold fontweight = 800
 MerriweatherLight
