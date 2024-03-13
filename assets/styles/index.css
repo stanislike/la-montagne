@@ -279,4 +279,44 @@ main .section-1 .img-section-1 {
 }
 main .section-1 .btn {
   margin: 50px 0 90px;
+}
+main .section-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-top: 1px solid rgb(209, 209, 209);
+}
+main .section-2 .left-section-2,
+main .section-2 .right-section-2 {
+  padding: 60px;
+}
+main .section-2 .left-section-2 span,
+main .section-2 .right-section-2 span {
+  font-size: 0.75rem;
+}
+main .section-2 .left-section-2 h3,
+main .section-2 .right-section-2 h3 {
+  margin: 20px 0;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+main .section-2 .left-section-2 p,
+main .section-2 .right-section-2 p {
+  text-align: left;
+  line-height: 30px;
+  margin: 30px 0;
+  font-size: 0.8rem;
+}
+main .section-2 .left-section-2 {
+  border-right: 1px solid rgb(209, 209, 209);
+}
+main .section-2 .left-section-2 .img-left-section-2 {
+  height: 431.5px;
+  background: url(../img/pic02.jpg) center/cover;
+}
+main .section-2 .right-section-2 .img-right-section-2 {
+  height: 431.5px;
+  background: url(../img/pic03.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */

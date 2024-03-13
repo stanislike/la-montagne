@@ -60,4 +60,49 @@ main {
             margin: 50px 0 90px;
         }
     }
+
+    .section-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-top: 1px solid $grey1;
+
+        .left-section-2,
+        .right-section-2 {
+            padding: 60px;
+
+            span {
+                font-size: 0.75rem;
+            }
+
+            h3 {
+                margin: 20px 0;
+                @include title;
+                line-height: 28px;
+            }
+
+            p {
+                text-align: left;
+                line-height: 30px;
+                margin: 30px 0;
+                font-size: 0.8rem;
+            }
+        }
+        
+        .left-section-2 {
+            border-right: 1px solid $grey1;
+
+            .img-left-section-2 {
+                height: 431.5px;
+                background: url(../img/pic02.jpg) center/cover;
+            }
+        }
+
+        .right-section-2 {
+
+            .img-right-section-2 {
+                height: 431.5px;
+                background: url(../img/pic03.jpg) center/cover;
+            }
+        }
+    }
 }
