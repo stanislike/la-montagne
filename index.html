@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La montagne, ça vous gagne</title>
 
-    <link rel="stylesheet" href="./assets/styles/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <h1>La montagne ça vous gagne</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
-          animi esse maxime consequuntur rem culpa.
-        </p>
-        <a href="#">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La montagne, ça vous gagne</title>
+
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>La montagne ça vous gagne</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
+        animi esse maxime consequuntur rem culpa.
+      </p>
+      <span>
+        <a href="#main">
           <i class="fa-solid fa-arrow-down"></i>
         </a>
-      </div>
-      <nav>
-        <div class="left-nav">
-          <ul>
-            <li>This is massively</li>
-            <li>Generic page</li>
-            <li>Elements reference</li>
-          </ul>
-        </div>
-        <div class="right-nav">
-          <ul>
-            <li>
-              <a href="https://twitter.com/" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.github.com" target="_blank">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      </span>
+    </div>
+    <nav>
+      <ul class="left-nav">
+        <li>This is massively</li>
+        <li>Generic page</li>
+        <li>Elements reference</li>
+      </ul>
+      <ul class="right-nav">
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.github.com" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <main id="main">
     <section class="section-1">
-      <p>April 25,2017</p>
+      <span>April 25,2017</span>
       <h2>and this is a massive headline</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
@@ -67,47 +65,90 @@
         enim eligendi nisi! Cumque, facere.
       </p>
       <div class="img-section-1"></div>
-      <button>Full Story</button>
+      <button class="btn">Full Story</button>
     </section>
 
     <section class="section-2">
       <div class="left-section-2">
-        <p>April 24,2017</p>
+        <span>April 24,2017</span>
         <h3>sed magna ipsum faucibus</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          dolor excepturi quam, vero sunt totam aliquid explicabo qui eum fugit
-          enim eligendi nisi! Cumque, facere.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptatibus dolor excepturi quam, vero sunt totam aliquid explicabo
+          qui eum fugit enim eligendi nisi! Cumque, facere.
         </p>
         <div class="img-left-section-2"></div>
-        <button>Full Story</button>
+        <button class="btn">Full Story</button>
       </div>
 
       <div class="right-section-2">
-        <p>April 22,2017</p>
+        <span>April 22,2017</span>
         <h3>primis eget imperdiet lorem</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          dolor excepturi quam, vero sunt totam aliquid explicabo qui eum fugit
-          enim eligendi nisi! Cumque, facere.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptatibus dolor excepturi quam, vero sunt totam aliquid explicabo
+          qui eum fugit enim eligendi nisi! Cumque, facere.
         </p>
         <div class="img-right-section-2"></div>
-        <button>Full Story</button>
+        <buttonclass="btn">Full Story</buttonclass=>
       </div>
     </section>
+  </main>
 
-    <footer>
-      <div class="form">
-        <form action="">
-          <label for="name">name</label>
-          <input type="text" id="name" />
-          <label for="email">email</label>
-          <input type="email" id="email" />
-          <label for="textarea">message</label>
-          <textarea id="textarea"></textarea>
-        </form>
+  <footer>
+    <div class="form">
+      <form action="">
+        <label for="name">name</label>
+        <input type="text" id="name" />
+        <label for="email">email</label>
+        <input type="email" id="email" />
+        <label for="message">message</label>
+        <textarea id="message"></textarea>
+        <div class="submit-container">
+          <input type="submit" class="btn" value="Send Message" />
+        </div>
+      </form>
+    </div>
+    <div class="contact">
+      <div class="adress">
+        <h4>Address</h4>
+        <p>1234 Somewhere Road #87257</p>
+        <p>Nashville, TN 00000-0000</p>
       </div>
-      <div class="contact"></div>
-    </footer>
-  </body>
+      <div class="phone">
+        <h4>Phone</h4>
+        <p>(000) 000-0000</p>
+      </div>
+      <div class="email">
+        <h4>email</h4>
+        <p>info@untitled.ltd</p>
+      </div>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
